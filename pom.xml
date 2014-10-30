@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>source-map</artifactId>
-    <version>0.1.31-3-SNAPSHOT</version>
+    <version>0.1.40-SNAPSHOT</version>
     <name>Source Map</name>
     <description>WebJar for Source Map</description>
     <url>http://webjars.org</url>
@@ -41,7 +41,7 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>0.1.31</upstreamVersion>
+        <upstreamVersion>0.1.40</upstreamVersion>
         <sourceUrl>https://github.com/mozilla/source-map/archive</sourceUrl>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
         <extractDir>${project.build.directory}/source-map-${upstreamVersion}</extractDir>
